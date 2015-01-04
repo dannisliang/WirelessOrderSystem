@@ -29,5 +29,7 @@ build up the refresh function.
 Descriptions of packages in this app:
 
 com.amaker.provider  Visit local SQLite
+
 com.amaker.util      Tools for database
+
 com.amaker.wlo       Activies
