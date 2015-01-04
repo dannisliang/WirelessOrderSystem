@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainlayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<TableLayout 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content" 
+android:stretchColumns="1">
+		<TableRow>
+			<TextView 
+			android:text="Table No:" 
+			android:id="@+id/TextView01" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"/>
+			
+			<Spinner 
+			android:id="@+id/tableNoSpinner" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"/>
+		</TableRow>
+
+
+		<TableRow>
+			<TextView 
+			android:text="Customer number:" 
+			android:id="@+id/TextView02" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"></TextView>
+			
+			<EditText android:text="" 
+			android:id="@+id/personNumEditText02" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"></EditText>
+		</TableRow>
+		
+		<TableRow android:gravity="right">
+		
+			<Button 
+			android:text="Start a new table" 
+			android:id="@+id/startButton02" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"/>
+			
+			<Button 
+			android:text="添菜" 
+			android:id="@+id/addMealButton01" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"/>
+			
+			<Button 
+			android:text="Order" 
+			android:id="@+id/orderButton02" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" />
+	
+		</TableRow>
+
+	</TableLayout>
+
+	<ListView 
+	android:id="@+id/orderDetailListView01" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
+
+
+
